@@ -1,7 +1,7 @@
 # BGmi All In One Docker
 
-[![Build](https://github.com/DDS-Derek/BGmi-All-In-One-Docker/actions/workflows/build.yml/badge.svg)](https://github.com/DDS-Derek/BGmi-All-In-One-Docker/actions/workflows/build.yml)
-[![Test](https://github.com/DDS-Derek/BGmi-All-In-One-Docker/actions/workflows/test.yml/badge.svg)](https://github.com/DDS-Derek/BGmi-All-In-One-Docker/actions/workflows/test.yml)
+[![Build](https://github.com/DDSRem-Dev/BGmi-All-In-One-Docker/actions/workflows/build.yml/badge.svg)](https://github.com/DDSRem-Dev/BGmi-All-In-One-Docker/actions/workflows/build.yml)
+[![Test](https://github.com/DDSRem-Dev/BGmi-All-In-One-Docker/actions/workflows/test.yml/badge.svg)](https://github.com/DDSRem-Dev/BGmi-All-In-One-Docker/actions/workflows/test.yml)
 
 **注意，Dockerhub仓库从`ddsderek/bgmi-docker-all-in-one`换为`ddsderek/bgmi-all-in-one`**
 
@@ -81,7 +81,7 @@ docker run -itd \
   -e BGMI_HARDLINK_USE=true \
   -e FILEBROWSER_USE=true \
   -e ARIA2_UPDATE_TRACKERS=true \
-  -e ARIA2_CUSTOM_TRACKER_URL=https://raw.githubusercontent.com/DDS-Derek/Aria2-Pro-Docker/main/tracker/all.list \
+  -e ARIA2_CUSTOM_TRACKER_URL=https://raw.githubusercontent.com/DDSRem-Dev/Aria2-Pro-Docker/main/tracker/all.list \
   -e ARIA2_LISTEN_PORT=6888 \
   -e ARIA2_RPC_PORT=6800 \
   -e ARIA2_RPC_SECRET= \
@@ -117,15 +117,15 @@ docker run -itd \
 
 **transmission**
 
-[docker-compose](https://github.com/DDS-Derek/BGmi-All-In-One-Docker/blob/master/docs/example/transmission/docker-compose.yml)
+[docker-compose](https://github.com/DDSRem-Dev/BGmi-All-In-One-Docker/blob/master/docs/example/transmission/docker-compose.yml)
 
 **Aria2**
 
-[docker-compose](https://github.com/DDS-Derek/BGmi-All-In-One-Docker/blob/master/docs/example/aria2-pro/docker-compose.yml)
+[docker-compose](https://github.com/DDSRem-Dev/BGmi-All-In-One-Docker/blob/master/docs/example/aria2-pro/docker-compose.yml)
 
 **不使用内置下载器**
 
-[docker-compose](https://github.com/DDS-Derek/BGmi-All-In-One-Docker/blob/master/docs/example/default/docker-compose.yml)
+[docker-compose](https://github.com/DDSRem-Dev/BGmi-All-In-One-Docker/blob/master/docs/example/default/docker-compose.yml)
 
 ## 参数说明
 

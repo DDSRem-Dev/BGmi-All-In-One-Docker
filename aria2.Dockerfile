@@ -6,7 +6,7 @@ FROM ddsderek/bgmi-all-in-one:${RELEASE_VERSION}
 
 ENV BGMI_VERSION=aria2 \
     ARIA2_UPDATE_TRACKERS=true \
-    ARIA2_CUSTOM_TRACKER_URL=https://raw.githubusercontent.com/DDS-Derek/Aria2-Pro-Docker/main/tracker/all.list \
+    ARIA2_CUSTOM_TRACKER_URL=https://raw.githubusercontent.com/DDSRem-Dev/Aria2-Pro-Docker/main/tracker/all.list \
     ARIA2_LISTEN_PORT=6888 \
     ARIA2_RPC_PORT=6800 \
     ARIA2_RPC_SECRET=password \
@@ -24,7 +24,7 @@ RUN set -ex && \
     # Aria2-Ban install
     npm i -g aria2b && \
     # Aria2-Pro install
-    curl --insecure -fsSL https://raw.githubusercontent.com/DDS-Derek/Aria2-Pro-Core/master/aria2-install.sh | bash && \
+    curl --insecure -fsSL https://raw.githubusercontent.com/DDSRem-Dev/Aria2-Pro-Core/master/aria2-install.sh | bash && \
     echo $(aria2c --version) > /versions/ARIA2C_VERSION.txt && \
     # AriaNg install
     mkdir -p ${BGMI_HOME}/downloader/aria2/ariang && \

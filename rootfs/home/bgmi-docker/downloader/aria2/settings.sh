@@ -7,7 +7,7 @@
 #  / ___ \| |  | | (_| |/ __/  |  __/| | | (_) |
 # /_/   \_\_|  |_|\__,_|_____| |_|   |_|  \___/
 #
-# https://github.com/P3TERX/Docker-Aria2-Pro https://github.com/DDS-Derek/Aria2-Pro-Docker
+# https://github.com/P3TERX/Docker-Aria2-Pro https://github.com/DDSRem-Dev/Aria2-Pro-Docker
 #
 # Copyright (c) 2020-2022 P3TERX <https://p3terx.com> DDSRem DDSDerek <https://blog.ddsrem.com>
 #
