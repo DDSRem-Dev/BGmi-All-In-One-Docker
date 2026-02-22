@@ -1,4 +1,3 @@
-version: '3.3'
 services:
     bgmi:
         container_name: BGmi
